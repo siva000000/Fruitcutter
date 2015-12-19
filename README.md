@@ -1,6 +1,5 @@
-Fruit Ninja
+Fruit Cutter
 ==========
 
-Android clone of Fruit Ninja.
+Android clone of Fruit Cutter
 
-Images from http://findicons.com/search/fruit
