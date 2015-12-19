@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="false"
+    android:animateLayoutChanges="false"
+    android:background="@drawable/background_gradient"
+    android:clickable="false"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:duplicateParentState="false"
+    android:fitsSystemWindows="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:longClickable="false"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    android:splitMotionEvents="true"
+    tools:context=".MainMenuFragment" >
+
+    <Button
+        android:id="@+id/button_play"
+        style="@style/buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/start" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/background_gradient"
+        android:src="@drawable/siva" />
+
+    <TextClock
+        android:id="@+id/textClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="TextClock" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editText1"
+        style="@style/NoAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:clickable="false"
+        android:duplicateParentState="true"
+        android:ems="5"
+        android:enabled="false"
+        android:fitsSystemWindows="false"
+        android:focusableInTouchMode="false"
+        android:freezesText="false"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:scrollHorizontally="false"
+        android:selectAllOnFocus="false"
+        android:text="Designed By Siva - 9043207203" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Fruit Cutter</string>
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
+    <string name="button_home">Home</string>
+   
+</resources>
